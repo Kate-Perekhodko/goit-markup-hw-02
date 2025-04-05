@@ -36,6 +36,9 @@ p {
   font-family: Roboto, sans-serif;
   font-weight: bold;
   letter-spacing: 0.02em;
+  font-size: 56px;
+  line-height: 1.07;
+  color: #ffffff;
 }
 
 .title-big {
@@ -45,6 +48,7 @@ p {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 20px;
+  letter-spacing: 0.02em;
 }
 
 .title-small {
@@ -58,7 +62,7 @@ p {
 
 /* Стилі для кнопок */
 .button {
-  background-color: #404bbf;
+  background-color: #4d5ae5;
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -114,6 +118,7 @@ p {
 .container-title-our-portfolio {
   background-color: #f4f4fd;
   padding: 40px;
+  line-height: 0.02em;
 }
 
 .container-title-small {
@@ -159,7 +164,9 @@ p {
 .footer-logo .logo-text {
   color: #f4f4fd;
 }
-
+.footer-logo .studio-text {
+  text-transform: uppercase;
+}
 .footer-container p {
   font-size: 16px;
   line-height: 1.5;
