@@ -16,7 +16,6 @@ a {
 
 ul {
   list-style-type: none;
-  padding: 0;
 }
 
 li {
@@ -71,8 +70,6 @@ p {
   color: #ffffff;
   cursor: pointer;
   border: none;
-  border-radius: 4px;
-  padding: 12px 24px;
 }
 
 .button:hover,
@@ -82,15 +79,7 @@ p {
 
 /* Стилі для навігації */
 .top-nav {
-  display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 20px 0;
-}
-
-.top-ul {
-  display: flex;
-  gap: 40px;
 }
 
 .nav-link {
@@ -111,19 +100,16 @@ p {
 .container-title {
   background-color: #2e2f42;
   text-align: center;
-  padding: 40px 20px;
 }
 
 .container-title-our-team,
 .container-title-our-portfolio {
   background-color: #f4f4fd;
-  padding: 40px;
   line-height: 0.02em;
 }
 
 .container-title-small {
   background-color: #2e2f42;
-  padding: 40px;
 }
 
 /* Стилі для секцій */
@@ -144,7 +130,6 @@ p {
 
 .footer-container {
   background-color: #2e2f42;
-  padding: 40px;
   text-align: center;
 }
 
@@ -156,7 +141,6 @@ p {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   text-decoration: none;
-  display: inline-block;
   margin-bottom: 20px;
   text-transform: uppercase;
 }
@@ -177,60 +161,32 @@ p {
 
 /* Стилі для елементів списку */
 ul {
-  display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
 li {
   background-color: #ffffff;
-  padding: 20px;
   margin: 10px;
-  border-radius: 8px;
   text-align: center;
-  width: 250px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Стилі для зображень в елементах */
 .team-img,
 .app-img {
-  width: 100%;
-  border-radius: 50%;
   margin-bottom: 15px;
 }
 
 img {
-  border-radius: 8px;
   margin-bottom: 15px;
-  max-width: 100%;
-  height: auto;
 }
 
 /* Адаптивність */
-
-.top-ul {
-  flex-direction: column;
-  align-items: center;
-}
-
-.button {
-  width: 100%;
-}
-
-.team-img,
-.app-img {
-  width: 80%;
-}
 
 ul {
   justify-content: space-evenly;
 }
 
-li {
-  width: 80%;
-  min-width: unset;
-}
 .main-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
